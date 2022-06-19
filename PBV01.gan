@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2022-06-17" view-index="0" gantt-divider-location="708" resource-divider-location="566" version="3.2.3242" locale="ko_KR">
+    <description/>
+    <view zooming-state="default:2" id="gantt-chart">
+        <field id="tpd3" name="이름" width="358" order="0"/>
+        <field id="tpd4" name="시작일" width="69" order="1"/>
+        <field id="tpd5" name="종료일" width="71" order="2"/>
+        <field id="tpd13" name="자원" width="108" order="3"/>
+        <field id="tpd6" name="기간" width="86" order="4"/>
+        <option id="taskLabelUp" value="name"/>
+        <option id="taskLabelRight" value="advancement"/>
+        <option id="filter.completedTasks" value="false"/>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="이름" width="332" order="0"/>
+        <field id="1" name="기본 역할" width="215" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="3" name="PBV01" meeting="false" start="2022-05-16" duration="39" complete="50" expand="false">
+            <task id="67" name="OTA Test" meeting="false" start="2022-06-15" duration="17" complete="0" expand="true">
+                <task id="68" name="OTA 1차 배포 TF" color="#8cb6ce" meeting="false" start="2022-06-15" duration="17" complete="0" thirdDate="2022-06-07" thirdDate-constraint="0" expand="true"/>
+            </task>
+            <task id="0" name="StatusBar Battery Icon" meeting="false" start="2022-05-17" duration="21" complete="100" expand="true">
+                <task id="1" name="영업/휴무/Navi화면/비Navi화면 Battery Icon UI작업" color="#8cb6ce" meeting="false" start="2022-05-17" duration="4" complete="100" thirdDate="2022-05-16" thirdDate-constraint="0" expand="true">
+                    <depend id="2" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="2" name="Property 값과 Data 연동" color="#8cb6ce" meeting="false" start="2022-05-23" duration="1" complete="100" thirdDate="2022-05-23" thirdDate-constraint="0" expand="true"/>
+                <task id="20" name="Gui 적용" color="#8cb6ce" meeting="false" start="2022-06-13" duration="1" complete="100" thirdDate="2022-05-16" thirdDate-constraint="0" expand="true">
+                    <depend id="37" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="37" name="실차 연동 Test" color="#8cb6ce" meeting="false" start="2022-06-14" duration="1" complete="100" thirdDate="2022-06-14" thirdDate-constraint="0" expand="true"/>
+            </task>
+            <task id="9" name="LocaAppMeter" meeting="false" start="2022-05-20" duration="1" complete="100" expand="true">
+                <task id="11" name="Loca Loading F/W 생성 및 전달" color="#8cb6ce" meeting="false" start="2022-05-20" duration="1" complete="100" thirdDate="2022-05-16" thirdDate-constraint="0" expand="true"/>
+            </task>
+            <task id="14" name="DriverRegist" meeting="false" start="2022-05-16" duration="10" complete="100" expand="true">
+                <task id="10" name="Driver Regist에 Loca 추가" color="#8cb6ce" meeting="false" start="2022-05-16" duration="5" complete="100" thirdDate="2022-05-16" thirdDate-constraint="0" expand="true">
+                    <depend id="16" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="16" name="Driver Regist에 Loca추가 검증기간" color="#8cb6ce" meeting="false" start="2022-05-23" duration="5" complete="100" thirdDate="2022-05-23" thirdDate-constraint="0" expand="true"/>
+                <task id="15" name="약관동의에서 개인정보보호방침삭제" color="#8cb6ce" meeting="false" start="2022-05-23" duration="3" complete="100" thirdDate="2022-05-16" thirdDate-constraint="0" expand="true">
+                    <depend id="38" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="38" name="CashBee 추가 관련 (Ordering, 체크박스 작업)" color="#8cb6ce" meeting="false" start="2022-05-26" duration="1" complete="100" thirdDate="2022-05-23" thirdDate-constraint="0" expand="true"/>
+            </task>
+            <task id="17" name="AndroidAuto" meeting="false" start="2022-05-23" duration="1" complete="0" expand="true">
+                <task id="18" name="오민호 책임 요청사항 분석(Key처리)" color="#8cb6ce" meeting="false" start="2022-05-23" duration="1" complete="0" thirdDate="2022-05-16" thirdDate-constraint="0" expand="true"/>
+            </task>
+            <task id="28" name="CarPlay" meeting="false" start="2022-06-13" duration="10" complete="40" expand="true">
+                <task id="41" name="WBS항목 추출" meeting="false" start="2022-06-13" duration="10" complete="40" thirdDate="2022-05-20" thirdDate-constraint="0" expand="true">
+                    <task id="44" name="Launcher" meeting="false" start="2022-06-13" duration="4" complete="100" thirdDate="2022-05-23" thirdDate-constraint="0" expand="true">
+                        <task id="31" name="[Launcher] CarPlay variant에 따라 아이콘 출력" color="#8cb6ce" meeting="false" start="2022-06-13" duration="1" complete="100" thirdDate="2022-05-23" thirdDate-constraint="0" expand="true">
+                            <depend id="30" type="2" difference="0" hardness="Strong"/>
+                        </task>
+                        <task id="30" name="[Device Connection Settings] CarPlay 연결 상태에 따른 Icon Activation" color="#8cb6ce" meeting="false" start="2022-06-14" duration="1" complete="100" thirdDate="2022-05-23" thirdDate-constraint="0" expand="true">
+                            <depend id="42" type="2" difference="0" hardness="Strong"/>
+                        </task>
+                        <task id="42" name="CarPlay 미연결 상태에서 CarPlay Icon 선택시 Popup" color="#8cb6ce" meeting="false" start="2022-06-15" duration="1" complete="100" thirdDate="2022-05-23" thirdDate-constraint="0" expand="true">
+                            <depend id="43" type="2" difference="0" hardness="Strong"/>
+                        </task>
+                        <task id="43" name="CarPlay연결 상태에서 CarPlay Icon 선택시 CarPlay화면으로 전환" color="#8cb6ce" meeting="false" start="2022-06-16" duration="1" complete="100" thirdDate="2022-05-23" thirdDate-constraint="0" expand="true">
+                            <depend id="46" type="2" difference="0" hardness="Strong"/>
+                        </task>
+                    </task>
+                    <task id="45" name="Device Connection Setting" meeting="false" start="2022-06-17" duration="6" complete="0" expand="true">
+                        <task id="46" name="After CarPlay Connected, Add Device in Device list" color="#8cb6ce" meeting="false" start="2022-06-17" duration="1" complete="0" thirdDate="2022-05-23" thirdDate-constraint="0" expand="true">
+                            <depend id="47" type="2" difference="0" hardness="Strong"/>
+                        </task>
+                        <task id="47" name="Display CarPlay Icon in Device List Item" color="#8cb6ce" meeting="false" start="2022-06-20" duration="1" complete="0" thirdDate="2022-05-23" thirdDate-constraint="0" expand="true">
+                            <depend id="48" type="2" difference="0" hardness="Strong"/>
+                        </task>
+                        <task id="48" name="Icon Dimming according to connection" color="#8cb6ce" meeting="false" start="2022-06-21" duration="1" complete="0" thirdDate="2022-05-23" thirdDate-constraint="0" expand="true">
+                            <depend id="49" type="2" difference="0" hardness="Strong"/>
+                        </task>
+                        <task id="49" name="Store/Delete CarPlay Device info" color="#8cb6ce" meeting="false" start="2022-06-22" duration="1" complete="0" thirdDate="2022-05-23" thirdDate-constraint="0" expand="true">
+                            <depend id="50" type="2" difference="0" hardness="Strong"/>
+                        </task>
+                        <task id="50" name="Show error popup during connecting" color="#8cb6ce" meeting="false" start="2022-06-23" duration="1" complete="0" thirdDate="2022-05-23" thirdDate-constraint="0" expand="true">
+                            <depend id="51" type="2" difference="0" hardness="Strong"/>
+                        </task>
+                        <task id="51" name="Show wireless connection popup when it disconnected" color="#8cb6ce" meeting="false" start="2022-06-24" duration="1" complete="0" thirdDate="2022-05-23" thirdDate-constraint="0" expand="true"/>
+                    </task>
+                </task>
+            </task>
+            <task id="36" name="Kakao Call 배차" meeting="false" start="2022-06-08" duration="1" complete="0" thirdDate="2022-05-23" thirdDate-constraint="0" expand="true">
+                <task id="39" name="MapAudioFocus 처리" color="#8cb6ce" meeting="false" start="2022-06-08" duration="1" complete="0" thirdDate="2022-05-20" thirdDate-constraint="0" expand="true"/>
+            </task>
+        </task>
+        <task id="40" name="TSD01" meeting="false" start="2022-06-13" duration="2" complete="0" expand="false">
+            <task id="29" name="Cinemo Demo App 제작(like 자연의소리)" color="#8cb6ce" meeting="false" start="2022-06-13" duration="2" complete="0" thirdDate="2022-05-23" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="4" name="TATA" meeting="false" start="2022-05-23" duration="30" complete="58" expand="true">
+            <task id="52" name="Apply TATA GUI (3 weeks)" meeting="false" start="2022-05-23" duration="15" complete="93" expand="false">
+                <task id="5" name="[UI변경] Radio" color="#8cb6ce" meeting="false" start="2022-05-23" duration="8" complete="100" thirdDate="2022-05-16" thirdDate-constraint="0" expand="true"/>
+                <task id="21" name="[UI변경] MediaHome" color="#8cb6ce" meeting="false" start="2022-05-25" duration="8" complete="100" thirdDate="2022-05-23" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true"/>
+                <task id="22" name="[UI변경] AllMenu" color="#8cb6ce" meeting="false" start="2022-05-23" duration="10" complete="95" thirdDate="2022-05-23" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true"/>
+                <task id="23" name="[UI변경] Update_v2" color="#8cb6ce" meeting="false" start="2022-05-23" duration="4" complete="100" thirdDate="2022-05-23" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true">
+                    <depend id="7" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="7" name="[UI변경] MtxIME" color="#8cb6ce" meeting="false" start="2022-05-27" duration="6" complete="100" thirdDate="2022-05-16" thirdDate-constraint="0" expand="true">
+                    <depend id="24" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="24" name="[UI변경] MtxCamera" color="#8cb6ce" meeting="false" start="2022-06-06" duration="2" complete="0" thirdDate="2022-05-23" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true"/>
+                <task id="8" name="[UI변경] MtxSettings" color="#8cb6ce" meeting="false" start="2022-05-23" duration="10" complete="80" thirdDate="2022-05-16" thirdDate-constraint="0" expand="true">
+                    <depend id="13" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="13" name="[UI변경] BTMusic" color="#8cb6ce" meeting="false" start="2022-06-06" duration="4" complete="90" thirdDate="2022-05-16" thirdDate-constraint="0" expand="true">
+                    <depend id="35" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="35" name="[SystemUI변경] BTMusic Split Widget" color="#8cb6ce" meeting="false" start="2022-06-10" duration="1" complete="100" thirdDate="2022-05-24" thirdDate-constraint="0" expand="true">
+                    <depend id="20" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="12" name="[UI변경] MusicPlayer" color="#8cb6ce" meeting="false" start="2022-05-23" duration="5" complete="100" thirdDate="2022-05-16" thirdDate-constraint="0" expand="true">
+                    <depend id="26" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="26" name="[UI변경] VideoPlayer" color="#8cb6ce" meeting="false" start="2022-05-30" duration="5" complete="100" thirdDate="2022-05-23" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true">
+                    <depend id="33" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="33" name="[UI변경] Video 내부 Setting" color="#8cb6ce" meeting="false" start="2022-06-06" duration="4" complete="100" thirdDate="2022-05-23" thirdDate-constraint="0" expand="true">
+                    <depend id="32" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="32" name="[SystemUI변경] USB Player Split Widget" color="#8cb6ce" meeting="false" start="2022-06-10" duration="1" complete="100" thirdDate="2022-05-23" thirdDate-constraint="0" expand="true"/>
+                <task id="27" name="[UI변경] BTPhone" color="#8cb6ce" meeting="false" start="2022-05-23" duration="8" complete="90" thirdDate="2022-05-23" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true">
+                    <depend id="25" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="25" name="[UI변경] ConnSetting" color="#8cb6ce" meeting="false" start="2022-06-02" duration="5" complete="100" thirdDate="2022-05-23" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true">
+                    <depend id="34" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="34" name="[SystemUI변경]  BTCall관련 SplitWidget" color="#8cb6ce" meeting="false" start="2022-06-09" duration="2" complete="100" thirdDate="2022-05-23" thirdDate-constraint="0" expand="true"/>
+            </task>
+            <task id="53" name="TATA 잔여" meeting="false" start="2022-06-15" duration="13" complete="0" expand="true">
+                <task id="73" name="List 한글 스크롤" color="#8cb6ce" meeting="false" start="2022-06-15" duration="5" complete="0" thirdDate="2022-06-10" thirdDate-constraint="0" expand="true">
+                    <depend id="56" type="2" difference="0" hardness="Strong"/>
+                    <depend id="77" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="54" name="BT Phone" meeting="false" start="2022-06-15" duration="9" complete="0" expand="true">
+                    <task id="55" name="BTPhone SWRC 동작 시 layout 변경 작업" color="#8cb6ce" meeting="false" start="2022-06-15" duration="1" complete="0" thirdDate="2022-06-07" thirdDate-constraint="0" expand="true">
+                        <depend id="58" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                    <task id="56" name="BTPhone List의 한글 인덱스 스크롤" color="#8cb6ce" meeting="false" start="2022-06-22" duration="4" complete="0" thirdDate="2022-06-07" thirdDate-constraint="0" expand="true"/>
+                    <task id="58" name="BTPhone message layout 변경 작업" color="#8cb6ce" meeting="false" start="2022-06-16" duration="2" complete="0" thirdDate="2022-06-07" thirdDate-constraint="0" expand="true">
+                        <depend id="57" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                    <task id="57" name="다국어(한글 번역 되어있지 않은 문구 변경)" color="#8cb6ce" meeting="false" start="2022-06-20" duration="1" complete="0" thirdDate="2022-06-07" thirdDate-constraint="0" expand="true">
+                        <depend id="71" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                </task>
+                <task id="74" name="BT Music" meeting="false" start="2022-06-22" duration="4" complete="0" expand="true">
+                    <task id="78" name="BT Music의 Device change" color="#8cb6ce" meeting="false" start="2022-06-23" duration="1" complete="0" thirdDate="2022-06-07" thirdDate-constraint="0" expand="true"/>
+                    <task id="77" name="BT Music List의 한글 인덱스 스크롤" color="#8cb6ce" meeting="false" start="2022-06-22" duration="4" complete="0" thirdDate="2022-06-22" thirdDate-constraint="0" expand="true"/>
+                </task>
+                <task id="75" name="Setting" meeting="false" start="2022-06-15" duration="6" complete="0" expand="true">
+                    <task id="81" name="다국어" color="#8cb6ce" meeting="false" start="2022-06-15" duration="1" complete="0" thirdDate="2022-06-15" thirdDate-constraint="0" expand="true">
+                        <depend id="79" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                    <task id="79" name="Delete unsupported Menu" color="#8cb6ce" meeting="false" start="2022-06-16" duration="1" complete="0" thirdDate="2022-06-07" thirdDate-constraint="0" expand="true">
+                        <depend id="80" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                    <task id="80" name="General Setting &gt;&gt; Alarm" color="#8cb6ce" meeting="false" start="2022-06-17" duration="1" complete="0" thirdDate="2022-06-16" thirdDate-constraint="0" expand="true">
+                        <depend id="76" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                    <task id="76" name="Media Sound Effects Button" color="#8cb6ce" meeting="false" start="2022-06-20" duration="2" complete="0" thirdDate="2022-06-07" thirdDate-constraint="0" expand="true">
+                        <depend id="82" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                    <task id="82" name="초기화" color="#8cb6ce" meeting="false" start="2022-06-22" duration="1" complete="0" thirdDate="2022-06-15" thirdDate-constraint="0" expand="true">
+                        <depend id="78" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                </task>
+                <task id="69" name="Keyboard" meeting="false" start="2022-06-21" duration="3" complete="0" expand="true">
+                    <task id="71" name="EU" color="#8cb6ce" meeting="false" start="2022-06-21" duration="1" complete="0" thirdDate="2022-06-10" thirdDate-constraint="0" expand="true">
+                        <depend id="70" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                    <task id="70" name="AU" color="#8cb6ce" meeting="false" start="2022-06-22" duration="1" complete="0" thirdDate="2022-06-10" thirdDate-constraint="0" expand="true">
+                        <depend id="72" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                    <task id="72" name="한글" color="#8cb6ce" meeting="false" start="2022-06-23" duration="1" complete="0" thirdDate="2022-06-10" thirdDate-constraint="0" expand="true">
+                        <depend id="19" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                </task>
+                <task id="19" name="딜러모드에 UUID 입력기능 추가" color="#8cb6ce" meeting="false" start="2022-06-24" duration="1" complete="0" thirdDate="2022-05-16" thirdDate-constraint="0" expand="true"/>
+                <task id="59" name="USB Music" meeting="false" start="2022-06-15" duration="4" complete="0" expand="true">
+                    <task id="62" name="음장버튼 추가 및 기능 구현" color="#8cb6ce" meeting="false" start="2022-06-15" duration="1" complete="0" thirdDate="2022-06-07" thirdDate-constraint="0" expand="true">
+                        <depend id="65" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                    <task id="65" name="한글 인덱스 스크롤 추가" color="#8cb6ce" meeting="false" start="2022-06-16" duration="3" complete="0" thirdDate="2022-06-07" thirdDate-constraint="0" expand="true">
+                        <depend id="64" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                </task>
+                <task id="60" name="USB Video" color="#8cb6ce" meeting="false" start="2022-06-21" duration="6" complete="0" thirdDate="2022-06-07" thirdDate-constraint="0" expand="true">
+                    <task id="64" name="Change Audio 기능 확인 (미구현일 시 기능 구현)" color="#8cb6ce" meeting="false" start="2022-06-21" duration="3" complete="0" thirdDate="2022-06-07" thirdDate-constraint="0" expand="true">
+                        <depend id="66" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                    <task id="66" name="USB Video &gt;&gt; Display Setting 사양에서 삭제된 탭 제거" color="#8cb6ce" meeting="false" start="2022-06-24" duration="1" complete="0" thirdDate="2022-06-16" thirdDate-constraint="0" expand="true">
+                        <depend id="63" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                    <task id="63" name="USB Video &gt;&gt; Display Setting 화면밝기 탭에 사양에서 삭제된 기능 제거" color="#8cb6ce" meeting="false" start="2022-06-27" duration="1" complete="0" thirdDate="2022-06-07" thirdDate-constraint="0" expand="true">
+                        <depend id="61" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                    <task id="61" name="USB Video &gt;&gt; Display Setting 우측 이미지 제거" color="#8cb6ce" meeting="false" start="2022-06-28" duration="1" complete="0" thirdDate="2022-06-07" thirdDate-constraint="0" expand="true"/>
+                </task>
+                <task id="83" name="Update" meeting="false" start="2022-06-20" duration="10" complete="0" expand="true">
+                    <task id="88" name="Quick update General update" color="#8cb6ce" meeting="false" start="2022-06-20" duration="1" complete="0" thirdDate="2022-06-07" thirdDate-constraint="0" expand="true">
+                        <depend id="87" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                    <task id="87" name="SW Update General Update" color="#8cb6ce" meeting="false" start="2022-06-21" duration="1" complete="0" thirdDate="2022-06-16" thirdDate-constraint="0" expand="true">
+                        <depend id="86" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                    <task id="86" name="SW Update NAVI Failed" color="#8cb6ce" meeting="false" start="2022-06-22" duration="1" complete="0" thirdDate="2022-06-17" thirdDate-constraint="0" expand="true">
+                        <depend id="85" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                    <task id="85" name="SW Update Reserved Update" color="#8cb6ce" meeting="false" start="2022-06-23" duration="4" complete="0" thirdDate="2022-06-10" thirdDate-constraint="0" expand="true">
+                        <depend id="84" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                    <task id="84" name="SW Update Canceled" color="#8cb6ce" meeting="false" start="2022-06-29" duration="1" complete="0" thirdDate="2022-06-24" thirdDate-constraint="0" expand="true">
+                        <depend id="91" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                    <task id="91" name="SW Update General Update &gt; Error" color="#8cb6ce" meeting="false" start="2022-06-30" duration="1" complete="0" thirdDate="2022-06-27" thirdDate-constraint="0" expand="true">
+                        <depend id="90" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                    <task id="90" name="SW Update &gt; Quick Update &gt; Error" color="#8cb6ce" meeting="false" start="2022-07-01" duration="1" complete="0" thirdDate="2022-06-28" thirdDate-constraint="0" expand="true"/>
+                </task>
+                <task id="92" name="All Menu_wbs작성" color="#8cb6ce" meeting="false" start="2022-06-20" duration="1" complete="0" thirdDate="2022-06-13" thirdDate-constraint="0" expand="true"/>
+            </task>
+        </task>
+    </tasks>
+    <resources>
+        <resource id="6" name="김희철" function="Default:1" contacts="" phone=""/>
+        <resource id="0" name="박효민" function="SoftwareDevelopment:2" contacts="" phone=""/>
+        <resource id="1" name="황신우" function="SoftwareDevelopment:2" contacts="" phone=""/>
+        <resource id="2" name="최상준" function="SoftwareDevelopment:2" contacts="" phone=""/>
+        <resource id="3" name="박형주" function="SoftwareDevelopment:2" contacts="" phone=""/>
+        <resource id="4" name="최형욱" function="SoftwareDevelopment:2" contacts="" phone=""/>
+        <resource id="5" name="심호정" function="SoftwareDevelopment:2" contacts="" phone=""/>
+        <resource id="7" name="최영환" function="SoftwareDevelopment:2" contacts="yhchoi@motrex.co.kr" phone=""/>
+        <resource id="8" name="권다혜" function="SoftwareDevelopment:2" contacts="" phone=""/>
+        <resource id="9" name="강민규" function="SoftwareDevelopment:2" contacts="" phone=""/>
+    </resources>
+    <allocations>
+        <allocation task-id="37" resource-id="6" function="Default:1" responsible="false" load="10.0"/>
+        <allocation task-id="1" resource-id="0" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="2" resource-id="0" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="8" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="20" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="13" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="35" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="37" resource-id="0" function="Default:0" responsible="true" load="90.0"/>
+        <allocation task-id="25" resource-id="0" function="SoftwareDevelopment:2" responsible="true" load="50.0"/>
+        <allocation task-id="72" resource-id="0" function="SoftwareDevelopment:2" responsible="false" load="50.0"/>
+        <allocation task-id="77" resource-id="0" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="78" resource-id="0" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="81" resource-id="0" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="79" resource-id="0" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="80" resource-id="0" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="76" resource-id="0" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="82" resource-id="0" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="11" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="18" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="22" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="5" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="21" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="10" resource-id="3" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="7" resource-id="3" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="15" resource-id="3" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="16" resource-id="3" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="23" resource-id="3" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="24" resource-id="3" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="38" resource-id="3" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="68" resource-id="3" function="SoftwareDevelopment:2" responsible="true" load="30.0"/>
+        <allocation task-id="12" resource-id="4" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="26" resource-id="4" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="32" resource-id="4" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="33" resource-id="4" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="62" resource-id="4" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="65" resource-id="4" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="64" resource-id="4" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="66" resource-id="4" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="63" resource-id="4" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="61" resource-id="4" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="68" resource-id="4" function="SoftwareDevelopment:2" responsible="false" load="30.0"/>
+        <allocation task-id="19" resource-id="5" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="27" resource-id="5" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="25" resource-id="5" function="Default:0" responsible="true" load="50.0"/>
+        <allocation task-id="34" resource-id="5" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="55" resource-id="5" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="56" resource-id="5" function="SoftwareDevelopment:2" responsible="true" load="50.0"/>
+        <allocation task-id="58" resource-id="5" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="57" resource-id="5" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="72" resource-id="5" function="SoftwareDevelopment:2" responsible="true" load="50.0"/>
+        <allocation task-id="71" resource-id="5" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="70" resource-id="5" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="31" resource-id="7" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="30" resource-id="7" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="41" resource-id="7" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="42" resource-id="7" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="43" resource-id="7" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="46" resource-id="7" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="47" resource-id="7" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="48" resource-id="7" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="49" resource-id="7" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="50" resource-id="7" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="51" resource-id="7" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="29" resource-id="8" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="88" resource-id="8" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="87" resource-id="8" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="86" resource-id="8" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="85" resource-id="8" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="84" resource-id="8" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="91" resource-id="8" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="90" resource-id="8" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="92" resource-id="8" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="73" resource-id="9" function="SoftwareDevelopment:2" responsible="true" load="10.0"/>
+        <allocation task-id="56" resource-id="9" function="SoftwareDevelopment:2" responsible="false" load="50.0"/>
+        <allocation task-id="77" resource-id="9" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+    </allocations>
+    <vacations>
+        <vacation start="2022-06-16" end="2022-06-18" resourceid="1"/>
+        <vacation start="2022-06-09" end="2022-06-11" resourceid="2"/>
+        <vacation start="2022-06-20" end="2022-06-21" resourceid="3"/>
+        <vacation start="2022-06-24" end="2022-06-25" resourceid="4"/>
+    </vacations>
+    <previous/>
+    <roles roleset-name="Default"/>
+    <roles roleset-name="SoftwareDevelopment"/>
+</project>
