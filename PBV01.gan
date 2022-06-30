@@ -1,18 +1,21 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2022-06-17" view-index="0" gantt-divider-location="708" resource-divider-location="566" version="3.2.3242" locale="ko_KR">
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2022-06-15" view-index="0" gantt-divider-location="678" resource-divider-location="566" version="3.2.3244" locale="ko_KR">
     <description/>
     <view zooming-state="default:2" id="gantt-chart">
-        <field id="tpd3" name="이름" width="358" order="0"/>
-        <field id="tpd4" name="시작일" width="69" order="1"/>
-        <field id="tpd5" name="종료일" width="71" order="2"/>
-        <field id="tpd13" name="자원" width="108" order="3"/>
-        <field id="tpd6" name="기간" width="86" order="4"/>
+        <field id="tpd3" name="이름" width="367" order="0"/>
+        <field id="tpd4" name="시작일" width="77" order="1"/>
+        <field id="tpd5" name="종료일" width="68" order="2"/>
+        <field id="tpd13" name="자원" width="67" order="3"/>
+        <field id="tpd6" name="기간" width="83" order="4"/>
         <option id="taskLabelUp" value="name"/>
         <option id="taskLabelRight" value="advancement"/>
         <option id="filter.completedTasks" value="false"/>
+        <option id="color.recent">
+            <![CDATA[#000000]]>
+        </option>
     </view>
     <view id="resource-table">
-        <field id="0" name="이름" width="332" order="0"/>
-        <field id="1" name="기본 역할" width="215" order="1"/>
+        <field id="0" name="이름" width="339" order="0"/>
+        <field id="1" name="기본 역할" width="223" order="1"/>
     </view>
     <!-- -->
     <calendars>
@@ -38,7 +41,7 @@
             <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
             <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
         </taskproperties>
-        <task id="3" name="PBV01" meeting="false" start="2022-05-16" duration="39" complete="50" expand="false">
+        <task id="3" name="PBV01" meeting="false" start="2022-05-16" duration="39" complete="62" expand="true">
             <task id="67" name="OTA Test" meeting="false" start="2022-06-15" duration="17" complete="0" expand="true">
                 <task id="68" name="OTA 1차 배포 TF" color="#8cb6ce" meeting="false" start="2022-06-15" duration="17" complete="0" thirdDate="2022-06-07" thirdDate-constraint="0" expand="true"/>
             </task>
@@ -68,8 +71,8 @@
             <task id="17" name="AndroidAuto" meeting="false" start="2022-05-23" duration="1" complete="0" expand="true">
                 <task id="18" name="오민호 책임 요청사항 분석(Key처리)" color="#8cb6ce" meeting="false" start="2022-05-23" duration="1" complete="0" thirdDate="2022-05-16" thirdDate-constraint="0" expand="true"/>
             </task>
-            <task id="28" name="CarPlay" meeting="false" start="2022-06-13" duration="10" complete="40" expand="true">
-                <task id="41" name="WBS항목 추출" meeting="false" start="2022-06-13" duration="10" complete="40" thirdDate="2022-05-20" thirdDate-constraint="0" expand="true">
+            <task id="28" name="CarPlay" meeting="false" start="2022-06-13" duration="10" complete="100" expand="false">
+                <task id="41" name="WBS항목 추출" meeting="false" start="2022-06-13" duration="10" complete="100" thirdDate="2022-05-20" thirdDate-constraint="0" expand="true">
                     <task id="44" name="Launcher" meeting="false" start="2022-06-13" duration="4" complete="100" thirdDate="2022-05-23" thirdDate-constraint="0" expand="true">
                         <task id="31" name="[Launcher] CarPlay variant에 따라 아이콘 출력" color="#8cb6ce" meeting="false" start="2022-06-13" duration="1" complete="100" thirdDate="2022-05-23" thirdDate-constraint="0" expand="true">
                             <depend id="30" type="2" difference="0" hardness="Strong"/>
@@ -84,23 +87,23 @@
                             <depend id="46" type="2" difference="0" hardness="Strong"/>
                         </task>
                     </task>
-                    <task id="45" name="Device Connection Setting" meeting="false" start="2022-06-17" duration="6" complete="0" expand="true">
-                        <task id="46" name="After CarPlay Connected, Add Device in Device list" color="#8cb6ce" meeting="false" start="2022-06-17" duration="1" complete="0" thirdDate="2022-05-23" thirdDate-constraint="0" expand="true">
+                    <task id="45" name="Device Connection Setting" meeting="false" start="2022-06-17" duration="6" complete="100" expand="true">
+                        <task id="46" name="After CarPlay Connected, Add Device in Device list" color="#8cb6ce" meeting="false" start="2022-06-17" duration="1" complete="100" thirdDate="2022-05-23" thirdDate-constraint="0" expand="true">
                             <depend id="47" type="2" difference="0" hardness="Strong"/>
                         </task>
-                        <task id="47" name="Display CarPlay Icon in Device List Item" color="#8cb6ce" meeting="false" start="2022-06-20" duration="1" complete="0" thirdDate="2022-05-23" thirdDate-constraint="0" expand="true">
+                        <task id="47" name="Display CarPlay Icon in Device List Item" color="#8cb6ce" meeting="false" start="2022-06-20" duration="1" complete="100" thirdDate="2022-05-23" thirdDate-constraint="0" expand="true">
                             <depend id="48" type="2" difference="0" hardness="Strong"/>
                         </task>
-                        <task id="48" name="Icon Dimming according to connection" color="#8cb6ce" meeting="false" start="2022-06-21" duration="1" complete="0" thirdDate="2022-05-23" thirdDate-constraint="0" expand="true">
+                        <task id="48" name="Icon Dimming according to connection" color="#8cb6ce" meeting="false" start="2022-06-21" duration="1" complete="100" thirdDate="2022-05-23" thirdDate-constraint="0" expand="true">
                             <depend id="49" type="2" difference="0" hardness="Strong"/>
                         </task>
-                        <task id="49" name="Store/Delete CarPlay Device info" color="#8cb6ce" meeting="false" start="2022-06-22" duration="1" complete="0" thirdDate="2022-05-23" thirdDate-constraint="0" expand="true">
+                        <task id="49" name="Store/Delete CarPlay Device info" color="#8cb6ce" meeting="false" start="2022-06-22" duration="1" complete="100" thirdDate="2022-05-23" thirdDate-constraint="0" expand="true">
                             <depend id="50" type="2" difference="0" hardness="Strong"/>
                         </task>
-                        <task id="50" name="Show error popup during connecting" color="#8cb6ce" meeting="false" start="2022-06-23" duration="1" complete="0" thirdDate="2022-05-23" thirdDate-constraint="0" expand="true">
+                        <task id="50" name="Show error popup during connecting" color="#8cb6ce" meeting="false" start="2022-06-23" duration="1" complete="100" thirdDate="2022-05-23" thirdDate-constraint="0" expand="true">
                             <depend id="51" type="2" difference="0" hardness="Strong"/>
                         </task>
-                        <task id="51" name="Show wireless connection popup when it disconnected" color="#8cb6ce" meeting="false" start="2022-06-24" duration="1" complete="0" thirdDate="2022-05-23" thirdDate-constraint="0" expand="true"/>
+                        <task id="51" name="Show wireless connection popup when it disconnected" color="#8cb6ce" meeting="false" start="2022-06-24" duration="1" complete="100" thirdDate="2022-05-23" thirdDate-constraint="0" expand="true"/>
                     </task>
                 </task>
             </task>
@@ -111,7 +114,7 @@
         <task id="40" name="TSD01" meeting="false" start="2022-06-13" duration="2" complete="0" expand="false">
             <task id="29" name="Cinemo Demo App 제작(like 자연의소리)" color="#8cb6ce" meeting="false" start="2022-06-13" duration="2" complete="0" thirdDate="2022-05-23" thirdDate-constraint="0" expand="true"/>
         </task>
-        <task id="4" name="TATA" meeting="false" start="2022-05-23" duration="30" complete="58" expand="true">
+        <task id="4" name="TATA" meeting="false" start="2022-05-23" duration="35" complete="84" expand="true">
             <task id="52" name="Apply TATA GUI (3 weeks)" meeting="false" start="2022-05-23" duration="15" complete="93" expand="false">
                 <task id="5" name="[UI변경] Radio" color="#8cb6ce" meeting="false" start="2022-05-23" duration="8" complete="100" thirdDate="2022-05-16" thirdDate-constraint="0" expand="true"/>
                 <task id="21" name="[UI변경] MediaHome" color="#8cb6ce" meeting="false" start="2022-05-25" duration="8" complete="100" thirdDate="2022-05-23" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true"/>
@@ -150,75 +153,90 @@
                 </task>
                 <task id="34" name="[SystemUI변경]  BTCall관련 SplitWidget" color="#8cb6ce" meeting="false" start="2022-06-09" duration="2" complete="100" thirdDate="2022-05-23" thirdDate-constraint="0" expand="true"/>
             </task>
-            <task id="53" name="TATA 잔여" meeting="false" start="2022-06-15" duration="13" complete="0" expand="true">
+            <task id="53" name="TATA 잔여" meeting="false" start="2022-06-15" duration="18" complete="74" expand="true">
                 <task id="73" name="List 한글 스크롤" color="#8cb6ce" meeting="false" start="2022-06-15" duration="5" complete="0" thirdDate="2022-06-10" thirdDate-constraint="0" expand="true">
                     <depend id="56" type="2" difference="0" hardness="Strong"/>
                     <depend id="77" type="2" difference="0" hardness="Strong"/>
                 </task>
-                <task id="54" name="BT Phone" meeting="false" start="2022-06-15" duration="9" complete="0" expand="true">
-                    <task id="55" name="BTPhone SWRC 동작 시 layout 변경 작업" color="#8cb6ce" meeting="false" start="2022-06-15" duration="1" complete="0" thirdDate="2022-06-07" thirdDate-constraint="0" expand="true">
+                <task id="54" name="BT Phone" meeting="false" start="2022-06-15" duration="15" complete="96" expand="true">
+                    <task id="55" name="BTPhone SWRC 동작 시 layout 변경 작업" color="#8cb6ce" meeting="false" start="2022-06-15" duration="1" complete="100" thirdDate="2022-06-07" thirdDate-constraint="0" expand="true">
                         <depend id="58" type="2" difference="0" hardness="Strong"/>
                     </task>
-                    <task id="56" name="BTPhone List의 한글 인덱스 스크롤" color="#8cb6ce" meeting="false" start="2022-06-22" duration="4" complete="0" thirdDate="2022-06-07" thirdDate-constraint="0" expand="true"/>
-                    <task id="58" name="BTPhone message layout 변경 작업" color="#8cb6ce" meeting="false" start="2022-06-16" duration="2" complete="0" thirdDate="2022-06-07" thirdDate-constraint="0" expand="true">
-                        <depend id="57" type="2" difference="0" hardness="Strong"/>
+                    <task id="56" name="BTPhone List의 한글 인덱스 스크롤" color="#8cb6ce" meeting="false" start="2022-06-22" duration="4" complete="100" thirdDate="2022-06-07" thirdDate-constraint="0" expand="true"/>
+                    <task id="58" name="BTPhone message layout 변경 작업" color="#8cb6ce" meeting="false" start="2022-06-16" duration="14" complete="95" thirdDate="2022-06-07" thirdDate-constraint="0" expand="true">
+                        <notes>
+                            <![CDATA[Phone > message 일부 이미지 적용 남아있습니다.(7/5 배포예정)]]>
+                        </notes>
                     </task>
-                    <task id="57" name="다국어(한글 번역 되어있지 않은 문구 변경)" color="#8cb6ce" meeting="false" start="2022-06-20" duration="1" complete="0" thirdDate="2022-06-07" thirdDate-constraint="0" expand="true">
+                    <task id="57" name="다국어(한글 번역 되어있지 않은 문구 변경)" color="#8cb6ce" meeting="false" start="2022-06-20" duration="1" complete="100" thirdDate="2022-06-07" thirdDate-constraint="0" expand="true">
                         <depend id="71" type="2" difference="0" hardness="Strong"/>
                     </task>
                 </task>
-                <task id="74" name="BT Music" meeting="false" start="2022-06-22" duration="4" complete="0" expand="true">
-                    <task id="78" name="BT Music의 Device change" color="#8cb6ce" meeting="false" start="2022-06-23" duration="1" complete="0" thirdDate="2022-06-07" thirdDate-constraint="0" expand="true"/>
-                    <task id="77" name="BT Music List의 한글 인덱스 스크롤" color="#8cb6ce" meeting="false" start="2022-06-22" duration="4" complete="0" thirdDate="2022-06-22" thirdDate-constraint="0" expand="true"/>
+                <task id="74" name="BT Music" meeting="false" start="2022-06-22" duration="4" complete="100" expand="true">
+                    <task id="78" name="BT Music의 Device change" color="#8cb6ce" meeting="false" start="2022-06-23" duration="1" complete="100" thirdDate="2022-06-07" thirdDate-constraint="0" expand="true"/>
+                    <task id="77" name="BT Music List의 한글 인덱스 스크롤" color="#8cb6ce" meeting="false" start="2022-06-22" duration="4" complete="100" thirdDate="2022-06-22" thirdDate-constraint="0" expand="true"/>
                 </task>
-                <task id="75" name="Setting" meeting="false" start="2022-06-15" duration="6" complete="0" expand="true">
-                    <task id="81" name="다국어" color="#8cb6ce" meeting="false" start="2022-06-15" duration="1" complete="0" thirdDate="2022-06-15" thirdDate-constraint="0" expand="true">
+                <task id="75" name="Setting" meeting="false" start="2022-06-15" duration="15" complete="85" expand="true">
+                    <task id="81" name="다국어" color="#8cb6ce" meeting="false" start="2022-06-15" duration="1" complete="100" thirdDate="2022-06-15" thirdDate-constraint="0" expand="true">
                         <depend id="79" type="2" difference="0" hardness="Strong"/>
                     </task>
-                    <task id="79" name="Delete unsupported Menu" color="#8cb6ce" meeting="false" start="2022-06-16" duration="1" complete="0" thirdDate="2022-06-07" thirdDate-constraint="0" expand="true">
+                    <task id="79" name="Delete unsupported Menu" color="#8cb6ce" meeting="false" start="2022-06-16" duration="1" complete="100" thirdDate="2022-06-07" thirdDate-constraint="0" expand="true">
                         <depend id="80" type="2" difference="0" hardness="Strong"/>
                     </task>
-                    <task id="80" name="General Setting &gt;&gt; Alarm" color="#8cb6ce" meeting="false" start="2022-06-17" duration="1" complete="0" thirdDate="2022-06-16" thirdDate-constraint="0" expand="true">
+                    <task id="80" name="General Setting &gt;&gt; Alarm" color="#8cb6ce" meeting="false" start="2022-06-17" duration="1" complete="100" thirdDate="2022-06-16" thirdDate-constraint="0" expand="true">
                         <depend id="76" type="2" difference="0" hardness="Strong"/>
                     </task>
-                    <task id="76" name="Media Sound Effects Button" color="#8cb6ce" meeting="false" start="2022-06-20" duration="2" complete="0" thirdDate="2022-06-07" thirdDate-constraint="0" expand="true">
+                    <task id="76" name="Media Sound Effects Button" color="#8cb6ce" meeting="false" start="2022-06-20" duration="2" complete="100" thirdDate="2022-06-07" thirdDate-constraint="0" expand="true">
                         <depend id="82" type="2" difference="0" hardness="Strong"/>
                     </task>
-                    <task id="82" name="초기화" color="#8cb6ce" meeting="false" start="2022-06-22" duration="1" complete="0" thirdDate="2022-06-15" thirdDate-constraint="0" expand="true">
+                    <task id="82" name="초기화" color="#8cb6ce" meeting="false" start="2022-06-22" duration="1" complete="100" thirdDate="2022-06-15" thirdDate-constraint="0" expand="true">
                         <depend id="78" type="2" difference="0" hardness="Strong"/>
                     </task>
+                    <task id="93" name="신규 이미지 적용 및 Manual 메뉴적용" color="#8cb6ce" meeting="false" start="2022-07-05" duration="1" complete="0" thirdDate="2022-06-15" thirdDate-constraint="0" expand="true">
+                        <notes>
+                            <![CDATA[이미지와 새로운 Manual 메뉴 GUI 적용만 하면 되고, 7/5 배포 예정입니다.]]>
+                        </notes>
+                    </task>
                 </task>
-                <task id="69" name="Keyboard" meeting="false" start="2022-06-21" duration="3" complete="0" expand="true">
-                    <task id="71" name="EU" color="#8cb6ce" meeting="false" start="2022-06-21" duration="1" complete="0" thirdDate="2022-06-10" thirdDate-constraint="0" expand="true">
+                <task id="69" name="Keyboard" meeting="false" start="2022-06-21" duration="14" complete="95" expand="true">
+                    <task id="71" name="EU" color="#8cb6ce" meeting="false" start="2022-06-21" duration="1" complete="100" thirdDate="2022-06-10" thirdDate-constraint="0" expand="true">
                         <depend id="70" type="2" difference="0" hardness="Strong"/>
                     </task>
-                    <task id="70" name="AU" color="#8cb6ce" meeting="false" start="2022-06-22" duration="1" complete="0" thirdDate="2022-06-10" thirdDate-constraint="0" expand="true">
+                    <task id="70" name="AU" color="#8cb6ce" meeting="false" start="2022-06-22" duration="1" complete="100" thirdDate="2022-06-10" thirdDate-constraint="0" expand="true">
                         <depend id="72" type="2" difference="0" hardness="Strong"/>
                     </task>
-                    <task id="72" name="한글" color="#8cb6ce" meeting="false" start="2022-06-23" duration="1" complete="0" thirdDate="2022-06-10" thirdDate-constraint="0" expand="true">
-                        <depend id="19" type="2" difference="0" hardness="Strong"/>
+                    <task id="72" name="한글" color="#8cb6ce" meeting="false" start="2022-06-23" duration="12" complete="95" thirdDate="2022-06-10" thirdDate-constraint="0" expand="true">
+                        <notes>
+                            <![CDATA[Keyboard: 95%
+한글 키보드 ㄱㄷㅂㅅㅈ,ㅏㅓㅗㅜㅐㅔ 버튼을 0.8초이내 간격으로 더블탭 시 ㄲㄸㅃㅆㅉ,ㅑㅕㅛㅠㅒㅖ 입력됨 기능 구현 남아있습니다.
+
+한글 키보드는 m400에 없는 기능이라 새로 구현을 해야해서 차주 금요일까지 작업예정입니다
+]]>
+                        </notes>
                     </task>
                 </task>
-                <task id="19" name="딜러모드에 UUID 입력기능 추가" color="#8cb6ce" meeting="false" start="2022-06-24" duration="1" complete="0" thirdDate="2022-05-16" thirdDate-constraint="0" expand="true"/>
-                <task id="59" name="USB Music" meeting="false" start="2022-06-15" duration="4" complete="0" expand="true">
-                    <task id="62" name="음장버튼 추가 및 기능 구현" color="#8cb6ce" meeting="false" start="2022-06-15" duration="1" complete="0" thirdDate="2022-06-07" thirdDate-constraint="0" expand="true">
+                <task id="19" name="딜러모드에 UUID 입력기능 추가" color="#8cb6ce" meeting="false" start="2022-06-24" duration="1" complete="100" thirdDate="2022-05-16" thirdDate-constraint="0" expand="true"/>
+                <task id="59" name="USB Music" meeting="false" start="2022-06-15" duration="4" complete="100" expand="true">
+                    <task id="62" name="음장버튼 추가 및 기능 구현" color="#8cb6ce" meeting="false" start="2022-06-15" duration="1" complete="100" thirdDate="2022-06-07" thirdDate-constraint="0" expand="true">
                         <depend id="65" type="2" difference="0" hardness="Strong"/>
                     </task>
-                    <task id="65" name="한글 인덱스 스크롤 추가" color="#8cb6ce" meeting="false" start="2022-06-16" duration="3" complete="0" thirdDate="2022-06-07" thirdDate-constraint="0" expand="true">
+                    <task id="65" name="한글 인덱스 스크롤 추가" color="#8cb6ce" meeting="false" start="2022-06-16" duration="3" complete="100" thirdDate="2022-06-07" thirdDate-constraint="0" expand="true">
                         <depend id="64" type="2" difference="0" hardness="Strong"/>
                     </task>
                 </task>
-                <task id="60" name="USB Video" color="#8cb6ce" meeting="false" start="2022-06-21" duration="6" complete="0" thirdDate="2022-06-07" thirdDate-constraint="0" expand="true">
-                    <task id="64" name="Change Audio 기능 확인 (미구현일 시 기능 구현)" color="#8cb6ce" meeting="false" start="2022-06-21" duration="3" complete="0" thirdDate="2022-06-07" thirdDate-constraint="0" expand="true">
+                <task id="60" name="USB Video" color="#000000" meeting="false" start="2022-06-21" duration="11" complete="83" thirdDate="2022-06-07" thirdDate-constraint="0" expand="true">
+                    <task id="64" name="Change Audio 기능 확인 (미구현일 시 기능 구현)" color="#8cb6ce" meeting="false" start="2022-06-21" duration="3" complete="100" thirdDate="2022-06-07" thirdDate-constraint="0" expand="true">
                         <depend id="66" type="2" difference="0" hardness="Strong"/>
                     </task>
-                    <task id="66" name="USB Video &gt;&gt; Display Setting 사양에서 삭제된 탭 제거" color="#8cb6ce" meeting="false" start="2022-06-24" duration="1" complete="0" thirdDate="2022-06-16" thirdDate-constraint="0" expand="true">
+                    <task id="66" name="USB Video &gt;&gt; Display Setting 사양에서 삭제된 탭 제거" color="#8cb6ce" meeting="false" start="2022-06-24" duration="1" complete="100" thirdDate="2022-06-16" thirdDate-constraint="0" expand="true">
                         <depend id="63" type="2" difference="0" hardness="Strong"/>
                     </task>
-                    <task id="63" name="USB Video &gt;&gt; Display Setting 화면밝기 탭에 사양에서 삭제된 기능 제거" color="#8cb6ce" meeting="false" start="2022-06-27" duration="1" complete="0" thirdDate="2022-06-07" thirdDate-constraint="0" expand="true">
-                        <depend id="61" type="2" difference="0" hardness="Strong"/>
+                    <task id="63" name="USB Video &gt;&gt; Display Setting 화면밝기 탭에 사양에서 삭제된 기능 제거" color="#8cb6ce" meeting="false" start="2022-06-27" duration="1" complete="100" thirdDate="2022-06-07" thirdDate-constraint="0" expand="true"/>
+                    <task id="61" name="USB Video &gt;&gt; Display Setting 우측 이미지 제거" color="#8cb6ce" meeting="false" start="2022-07-05" duration="1" complete="0" thirdDate="2022-06-07" thirdDate-constraint="0" expand="true">
+                        <notes>
+                            <![CDATA[이미지 7/5 배포 후 적용 예정]]>
+                        </notes>
                     </task>
-                    <task id="61" name="USB Video &gt;&gt; Display Setting 우측 이미지 제거" color="#8cb6ce" meeting="false" start="2022-06-28" duration="1" complete="0" thirdDate="2022-06-07" thirdDate-constraint="0" expand="true"/>
                 </task>
                 <task id="83" name="Update" meeting="false" start="2022-06-20" duration="10" complete="0" expand="true">
                     <task id="88" name="Quick update General update" color="#8cb6ce" meeting="false" start="2022-06-20" duration="1" complete="0" thirdDate="2022-06-07" thirdDate-constraint="0" expand="true">
@@ -241,7 +259,7 @@
                     </task>
                     <task id="90" name="SW Update &gt; Quick Update &gt; Error" color="#8cb6ce" meeting="false" start="2022-07-01" duration="1" complete="0" thirdDate="2022-06-28" thirdDate-constraint="0" expand="true"/>
                 </task>
-                <task id="92" name="All Menu_wbs작성" color="#8cb6ce" meeting="false" start="2022-06-20" duration="1" complete="0" thirdDate="2022-06-13" thirdDate-constraint="0" expand="true"/>
+                <task id="92" name="All Menu" color="#8cb6ce" meeting="false" start="2022-06-20" duration="1" complete="100" thirdDate="2022-06-13" thirdDate-constraint="0" expand="true"/>
             </task>
         </task>
     </tasks>
